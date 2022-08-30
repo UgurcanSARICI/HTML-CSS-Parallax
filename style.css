@@ -125,3 +125,36 @@ p {
   letter-spacing: 0.5rem;
   color: white;
 }
+@media (max-width: 760px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .border {
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.6rem;
+    line-height: 2.5rem;
+  }
+  .thinborder {
+    padding: 0.4rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    outline: 0.2rem inset purple;
+    outline-offset: 0.1rem;
+    line-height: 2.4rem;
+  }
+  .section {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .background .part1,
+  .background .part2,
+  .background .part3,
+  .background .part4 {
+    background-attachment: scroll;
+  }
+}
